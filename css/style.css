@@ -1,4 +1,32 @@
+header {
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    background-color: #FE6901;
+    z-index: 1;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+}
+
+.link {
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 main {
+    padding-top: 50px;
     margin: 0 auto;
     width: 80%;
 }
@@ -112,6 +140,10 @@ main {
     padding: 7px;
 }
 
+.card-icon svg:hover {
+    fill: red;
+}
+
 .card-text1 p{
     display: flex;
 }
@@ -176,6 +208,44 @@ p {
     background-image: url('../images/img/1.webp');
     background-size: cover;
     transition: 0.5s ease-in-out;       
+}
+
+.producer {
+    font-weight: 200;
+}
+
+footer {
+    background-color: #1A1A1A;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.contain-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+h4 {
+    color: white;
+}
+
+.foot-link {
+    display: flex;
+    gap: 5px;
+    padding-bottom: 20px;
+}
+
+.foot-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.logo-link{
+    padding-bottom: 20px;
 }
 
 
