@@ -8,8 +8,14 @@ main {
     justify-content: space-between;
 }
 
+.last-cards {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .card {
-    width: 30%;
+    width: 32%;
 }
 
 .card1 {
