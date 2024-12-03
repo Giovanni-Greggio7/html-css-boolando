@@ -58,6 +58,16 @@ main {
     padding: 2px 5px;
 }
 
+.sustain2 {
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    padding: 2px 5px;
+}
+
 /* .text {
     line-height: 2px;
 } */
@@ -75,9 +85,12 @@ p {
 }
 
 .offer {
-    
+    color: red;
+    font-weight: 600;
 }
 
 .original {
+    font-weight: 200;
+    text-decoration: line-through;
 
 }
