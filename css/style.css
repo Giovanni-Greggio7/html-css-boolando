@@ -1,0 +1,77 @@
+main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.first-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+}
+
+.card1 {
+    position: relative;
+    margin: 0;
+}
+
+.card-icon svg{
+    background-color: white;
+    fill: black;
+    width: 18px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding: 7px;
+}
+
+.card-text1 p{
+    display: flex;
+}
+
+.discount {
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    padding: 2px 5px;
+
+}
+
+.sustain {
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 53px;
+    bottom: 10px;
+    padding: 2px 5px;
+}
+
+/* .text {
+    line-height: 2px;
+} */
+
+p {
+    margin: 0;
+    line-height: 20px;
+}
+
+
+.price {
+    display: flex;
+    gap: 5px;
+    
+}
+
+.offer {
+    
+}
+
+.original {
+
+}
